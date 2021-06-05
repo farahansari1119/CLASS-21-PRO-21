@@ -46,8 +46,8 @@ function draw() {
        
        if(box.isTouching(rect3)){
         box.shapeColor = "yellow"  
-       box.velocityX=0
-           box.velocityY=0;
+        box.velocityX = 0;
+        box.velocityY = 0;
          }
          if(box.isTouching(rect4)){
             box.shapeColor = "blue"  
